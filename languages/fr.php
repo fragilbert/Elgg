@@ -289,72 +289,72 @@ $french = array(
 	'dashboard:nowidgets' => "Votre tableau de bord permet de suivre l'activité et les contenus du site qui vous intéressent.",
 
 	'widgets:add' => "Ajouter des Widgets",
-	'widgets:add:description' => "Click on any widget button below to add it to the page.",
+	'widgets:add:description' => "Cliquez sur un widget ci-dessous pour l'ajouter à la page.",
 	'widgets:position:fixed' => '(Fixed position on page)',
-	'widget:unavailable' => 'You have already added this widget',
-	'widget:numbertodisplay' => 'Number of items to display',
+	'widget:unavailable' => "Hey. Vous avez déjà choisi ce widget",
+	'widget:numbertodisplay' => "Nombre d'éléments à afficher.",
 
-	'widget:delete' => 'Remove %s',
-	'widget:edit' => 'Customize this widget',
+	'widget:delete' => 'Enlever %s',
+	'widget:edit' => 'Personnaliser ce widget',
 
 	'widgets' => "Widgets",
 	'widget' => "Widget",
 	'item:object:widget' => "Widgets",
-	'widgets:save:success' => "The widget was successfully saved.",
-	'widgets:save:failure' => "We could not save your widget.",
-	'widgets:add:success' => "The widget was successfully added.",
-	'widgets:add:failure' => "We could not add your widget.",
-	'widgets:move:failure' => "We could not store the new widget position.",
-	'widgets:remove:failure' => "Unable to remove this widget",
+	'widgets:save:success' => "Le widget a été sauvegardé.",
+	'widgets:save:failure' => "Aïe. Le widget n'a pas pu être sauvegardé.",
+	'widgets:add:success' => "On a ajouté ce widget dans la page.",
+	'widgets:add:failure' => "Le widget n'a pas pu être ajouté.",
+	'widgets:move:failure' => "La nouvelle position du widget n'a pas pu être mémorisée.",
+	'widgets:remove:failure' => "Ca coince : impossible d'enlever ce widget. Désolé.",
 
 /**
  * Groups
  */
 
-	'group' => "Group",
-	'item:group' => "Groups",
+	'group' => "Groupe",
+	'item:group' => "Groupes",
 
 /**
  * Users
  */
 
-	'user' => "User",
-	'item:user' => "Users",
+	'user' => "Membre",
+	'item:user' => "Membres",
 
 /**
  * Friends
  */
 
-	'friends' => "Friends",
-	'friends:yours' => "Your friends",
-	'friends:owned' => "%s's friends",
-	'friend:add' => "Add friend",
-	'friend:remove' => "Remove friend",
+	'friends' => "Relations",
+	'friends:yours' => "Vos relations",
+	'friends:owned' => "Les relations de %s",
+	'friend:add' => "Ajouter une relation",
+	'friend:remove' => "Supprimer une relation",
 
-	'friends:add:successful' => "You have successfully added %s as a friend.",
-	'friends:add:failure' => "We couldn't add %s as a friend.",
+	'friends:add:successful' => "%s a été ajouté dans vos relations.",
+	'friends:add:failure' => "Impossible d'ajouter %s dans vos relations.",
 
 	'friends:remove:successful' => "You have successfully removed %s from your friends.",
 	'friends:remove:failure' => "We couldn't remove %s from your friends.",
 
-	'friends:none' => "No friends yet.",
-	'friends:none:you' => "You don't have any friends yet.",
+	'friends:none' => "N'a pas encore de relation dans le site.",
+	'friends:none:you' => "Pas encore de relations ? Ca ne saurait tarder.",
 
-	'friends:none:found' => "No friends were found.",
+	'friends:none:found' => "Aucune relation n'a été trouvée.",
 
-	'friends:of:none' => "Nobody has added this user as a friend yet.",
-	'friends:of:none:you' => "Nobody has added you as a friend yet. Start adding content and fill in your profile to let people find you!",
+	'friends:of:none' => "Personne n'est encore entré en relation avec ce membre. Soyez le premier !",
+	'friends:of:none:you' => "Personne ne vous a encore ajouté dans ses relations. Commencez par créer du contenu et mettre à jour votre page de membre du réseau. En vous mettant en visibilité, les autres membres vont vous trouver !",
 
-	'friends:of:owned' => "People who have made %s a friend",
+	'friends:of:owned' => "Les personnes qui ont choisi d'entrer en relation avec %s.",
 
-	'friends:of' => "Friends of",
-	'friends:collections' => "Friend collections",
-	'collections:add' => "New collection",
-	'friends:collections:add' => "New friends collection",
-	'friends:addfriends' => "Select friends",
-	'friends:collectionname' => "Collection name",
-	'friends:collectionfriends' => "Friends in collection",
-	'friends:collectionedit' => "Edit this collection",
+	'friends:of' => "Les relations de",
+	'friends:collections' => "Liste de relations",
+	'collections:add' => "Nouvelle liste",
+	'friends:collections:add' => "Nouvelle liste de relations",
+	'friends:addfriends' => "Ajouter des relations",
+	'friends:collectionname' => "Nom de la liste",
+	'friends:collectionfriends' => "Relations dans cette liste",
+	'friends:collectionedit' => "Modifier cette liste",
 	'friends:nocollections' => "You do not have any collections yet.",
 	'friends:collectiondeleted' => "Your collection has been deleted.",
 	'friends:collectiondeletefailed' => "We were unable to delete the collection. Either you don't have permission, or some other problem has occurred.",
@@ -474,14 +474,14 @@ $french = array(
  * Search
  */
 
-	'search' => "Search",
-	'searchtitle' => "Search: %s",
-	'users:searchtitle' => "Searching for users: %s",
-	'groups:searchtitle' => "Searching for groups: %s",
-	'advancedsearchtitle' => "%s with results matching %s",
-	'notfound' => "No results found.",
-	'next' => "Next",
-	'previous' => "Previous",
+	'search' => "Chercher",
+	'searchtitle' => "Recherche: %s",
+	'users:searchtitle' => "Recherche dans les membres : %s",
+	'groups:searchtitle' => "Recherche dans les groupes: %s",
+	'advancedsearchtitle' => "%s résultat(s) trouvé(s) pour %s",
+	'notfound' => "Aucun résultat trouvé.",
+	'next' => "Suivant",
+	'previous' => "Précédent",
 
 	'viewtype:change' => "Change list type",
 	'viewtype:list' => "List view",
@@ -836,24 +836,24 @@ $french = array(
  * Activity river
  */
 		
-	'river:all' => 'All Site Activity',
-	'river:mine' => 'My Activity',
-	'river:friends' => 'Friends Activity',
-	'river:select' => 'Show %s',
-	'river:comments:more' => '+%u more',
-	'river:generic_comment' => 'commented on %s %s',
+	'river:all' => "L'activité de tout le réseau",
+	'river:mine' => "Mon activité",
+	'river:friends' => "L'activité de mes relations",
+	'river:select' => 'Montrer %s',
+	'river:comments:more' => '+%u plus',
+	'river:generic_comment' => 'Commentaire sur %s %s',
 
-	'friends:widget:description' => "Displays some of your friends.",
-	'friends:num_display' => "Number of friends to display",
-	'friends:icon_size' => "Icon size",
-	'friends:tiny' => "tiny",
-	'friends:small' => "small",
+	'friends:widget:description' => "Affiche vos relations dans le réseau.",
+	'friends:num_display' => "Nombre de relations à afficher",
+	'friends:icon_size' => "Taille de l'icône",
+	'friends:tiny' => "tout petit",
+	'friends:small' => "petit",
 
 /**
  * Icons
  */
 
-	'icon:size' => "Icon size",
+	'icon:size' => "Taille de l'icône",
 	'icon:size:topbar' => "Topbar",
 	'icon:size:tiny' => "Tiny",
 	'icon:size:small' => "Small",
@@ -865,188 +865,188 @@ $french = array(
  * Generic action words
  */
 
-	'save' => "Save",
-	'reset' => 'Reset',
-	'publish' => "Publish",
-	'cancel' => "Cancel",
-	'saving' => "Saving ...",
-	'update' => "Update",
-	'preview' => "Preview",
-	'edit' => "Edit",
-	'delete' => "Delete",
-	'accept' => "Accept",
-	'reject' => "Reject",
-	'decline' => "Decline",
-	'approve' => "Approve",
-	'activate' => "Activate",
-	'deactivate' => "Deactivate",
-	'disapprove' => "Disapprove",
-	'revoke' => "Revoke",
-	'load' => "Load",
-	'upload' => "Upload",
-	'download' => "Download",
-	'ban' => "Ban",
-	'unban' => "Unban",
-	'banned' => "Banned",
-	'enable' => "Enable",
-	'disable' => "Disable",
-	'request' => "Request",
-	'complete' => "Complete",
-	'open' => 'Open',
-	'close' => 'Close',
-	'hide' => 'Hide',
-	'show' => 'Show',
-	'reply' => "Reply",
-	'more' => 'More',
-	'more_info' => 'More info',
-	'comments' => 'Comments',
-	'import' => 'Import',
-	'export' => 'Export',
-	'untitled' => 'Untitled',
-	'help' => 'Help',
-	'send' => 'Send',
-	'post' => 'Post',
-	'submit' => 'Submit',
-	'comment' => 'Comment',
-	'upgrade' => 'Upgrade',
-	'sort' => 'Sort',
-	'filter' => 'Filter',
-	'new' => 'New',
-	'add' => 'Add',
-	'create' => 'Create',
-	'remove' => 'Remove',
-	'revert' => 'Revert',
+	'save' => "Enregistrer",
+	'reset' => 'Réinitialiser',
+	'publish' => "Publier",
+	'cancel' => "Annuler",
+	'saving' => "Enregistrement ...",
+	'update' => "Mise à jour",
+	'preview' => "Prévisualisation",
+	'edit' => "Modifier",
+	'delete' => "Supprimer",
+	'accept' => "Accepter",
+	'reject' => "Rejeter",
+	'decline' => "Refuser",
+	'approve' => "Approuver",
+	'activate' => "Activer",
+	'deactivate' => "Désactiver",
+	'disapprove' => "Désapprouver",
+	'revoke' => "Révoquer",
+	'load' => "Charger",
+	'upload' => "Envoyer",
+	'download' => "Télécharger",
+	'ban' => "Bannir",
+	'unban' => "Rétablir",
+	'banned' => "Banni",
+	'enable' => "Activer",
+	'disable' => "Désactiver",
+	'request' => "Demander",
+	'complete' => "Terminer",
+	'open' => 'Ouvrir',
+	'close' => 'Fermer',
+	'hide' => 'Masquer',
+	'show' => 'Montrer',
+	'reply' => "Répondre",
+	'more' => 'Plus',
+	'more_info' => "Plus d'info",
+	'comments' => 'Commentaires',
+	'import' => 'Importer',
+	'export' => 'Exporter',
+	'untitled' => 'Sans titre',
+	'help' => 'Aide',
+	'send' => 'Envoyer',
+	'post' => 'Poster',
+	'submit' => 'Soumettre',
+	'comment' => 'Commenter',
+	'upgrade' => 'Mettre à jour',
+	'sort' => 'Trier',
+	'filter' => 'Filtrer',
+	'new' => 'Nouveau',
+	'add' => 'Ajouter',
+	'create' => 'Créer',
+	'remove' => 'Enlever',
+	'revert' => 'Annuler',
 
 	'site' => 'Site',
-	'activity' => 'Activity',
-	'members' => 'Members',
+	'activity' => 'Activité',
+	'members' => 'Membres',
 
-	'up' => 'Up',
-	'down' => 'Down',
-	'top' => 'Top',
-	'bottom' => 'Bottom',
-	'right' => 'Right',
-	'left' => 'Left',
-	'back' => 'Back',
+	'up' => 'Monter',
+	'down' => 'Descendre',
+	'top' => 'Haut',
+	'bottom' => 'Bas',
+	'right' => 'Droite',
+	'left' => 'Gauche',
+	'back' => 'Retour',
 
-	'invite' => "Invite",
+	'invite' => "Inviter",
 
-	'resetpassword' => "Reset password",
-	'makeadmin' => "Make admin",
-	'removeadmin' => "Remove admin",
+	'resetpassword' => "Réinitialiser le mot de passe",
+	'makeadmin' => "Donner l'administration",
+	'removeadmin' => "Enlever l'administration",
 
-	'option:yes' => "Yes",
-	'option:no' => "No",
+	'option:yes' => "Oui",
+	'option:no' => "Non",
 
-	'unknown' => 'Unknown',
+	'unknown' => 'Inconnu',
 
-	'active' => 'Active',
+	'active' => 'Actif',
 	'total' => 'Total',
 	
-	'other' => 'Other',
+	'other' => 'Autre',
 	'options' => 'Options',
-	'advanced' => 'Advanced',
+	'advanced' => 'Avancé',
 
-	'learnmore' => "Click here to learn more.",
+	'learnmore' => "Cliquez ici pour en savoir plus.",
 
-	'content' => "content",
-	'content:latest' => 'Latest activity',
-	'content:latest:blurb' => 'Alternatively, click here to view the latest content from across the site.',
+	'content' => "contenu",
+	'content:latest' => 'Dernière activité',
+	'content:latest:blurb' => "Vous pouvez aussi cliquer ici pour voir les derniers contenus de l'ensemble du site.",
 
-	'link:text' => 'view link',
+	'link:text' => 'voir le lien',
 	
 /**
  * Generic questions
  */
 
-	'question:areyousure' => 'Are you sure?',
+	'question:areyousure' => 'Etes-vous sûr(e) ?',
 
 /**
  * Status
  */
 
-	'status' => 'Status',
-	'status:unsaved_draft' => 'Unsaved Draft',
-	'status:draft' => 'Draft',
-	'status:unpublished' => 'Unpublished',
-	'status:published' => 'Published',
-	'status:featured' => 'Featured',
-	'status:open' => 'Open',
-	'status:closed' => 'Closed',
+	'status' => 'Statut',
+	'status:unsaved_draft' => 'Brouillon non enregistré',
+	'status:draft' => 'Brouillon',
+	'status:unpublished' => 'Non publié',
+	'status:published' => 'Publié',
+	'status:featured' => 'Avec',
+	'status:open' => 'Ouvert',
+	'status:closed' => 'Fermé',
 
 /**
  * Generic sorts
  */
 
-	'sort:newest' => 'Newest',
-	'sort:popular' => 'Popular',
-	'sort:alpha' => 'Alphabetical',
-	'sort:priority' => 'Priority',
+	'sort:newest' => 'Plus récent',
+	'sort:popular' => 'Populaire',
+	'sort:alpha' => 'Alphabétique',
+	'sort:priority' => 'Priorité',
 		
 /**
  * Generic data words
  */
 
-	'title' => "Title",
+	'title' => "Titre",
 	'description' => "Description",
-	'tags' => "Tags",
-	'spotlight' => "Spotlight",
-	'all' => "All",
-	'mine' => "Mine",
+	'tags' => "Mots-clés",
+	'spotlight' => "Mise en avant",
+	'all' => "Tout",
+	'mine' => "A moi",
 
-	'by' => 'by',
-	'none' => 'none',
+	'by' => 'par',
+	'none' => 'aucun',
 
 	'annotations' => "Annotations",
-	'relationships' => "Relationships",
-	'metadata' => "Metadata",
-	'tagcloud' => "Tag cloud",
-	'tagcloud:allsitetags' => "All site tags",
+	'relationships' => "Relations",
+	'metadata' => "Métadonnées",
+	'tagcloud' => "Nuage de mots-clés",
+	'tagcloud:allsitetags' => "Mots-clé du site",
 
-	'on' => 'On',
-	'off' => 'Off',
+	'on' => 'Marche',
+	'off' => 'Arrêt',
 
 /**
  * Entity actions
  */
 		
-	'edit:this' => 'Edit this',
-	'delete:this' => 'Delete this',
-	'comment:this' => 'Comment on this',
+	'edit:this' => 'Modifier çà',
+	'delete:this' => 'Supprimer ceci',
+	'comment:this' => 'Faire un commentaire',
 
 /**
  * Input / output strings
  */
 
-	'deleteconfirm' => "Are you sure you want to delete this item?",
-	'deleteconfirm:plural' => "Are you sure you want to delete these items?",
-	'fileexists' => "A file has already been uploaded. To replace it, select it below:",
+	'deleteconfirm' => "Etes-vous sûr(e) de vouloir supprimer cet éléments ?",
+	'deleteconfirm:plural' => "Ete(s)-vous sûr(e) de vouloir supprimer ces éléments ?",
+	'fileexists' => "Un fichier a déjà été enregistré. Pour le remplacer, choisissez-le dans la liste suivante :",
 
 /**
  * User add
  */
 
-	'useradd:subject' => 'User account created',
+	'useradd:subject' => 'Votre compte de membre a été créé',
 	'useradd:body' => '
 %s,
 
-A user account has been created for you at %s. To log in, visit:
+Un compte de membre a été créé dans le site du réseau social "%s".
+Pour vous connecter, allez à l'adresse :
 
 %s
 
-And log in with these user credentials:
+Vos coordonnées de connection sont :
 
-Username: %s
-Password: %s
+Pseudo: %s
+Mot de passe: %s
 
-Once you have logged in, we highly recommend that you change your password.
-',
+Une fois connecté, nous vous recommandant de changer immédiatement votre mot de passe.',
 
 /**
  * System messages
  */
 
-	'systemmessages:dismiss' => "click to dismiss",
+	'systemmessages:dismiss' => "cliquez pour fermer",
 
 
 /**
@@ -1060,60 +1060,60 @@ Once you have logged in, we highly recommend that you change your password.
  * Time
  */
 
-	'friendlytime:justnow' => "just now",
-	'friendlytime:minutes' => "%s minutes ago",
+	'friendlytime:justnow' => "à l'instant",
+	'friendlytime:minutes' => "il y a %s minutes",
 	'friendlytime:minutes:singular' => "a minute ago",
-	'friendlytime:hours' => "%s hours ago",
-	'friendlytime:hours:singular' => "an hour ago",
-	'friendlytime:days' => "%s days ago",
-	'friendlytime:days:singular' => "yesterday",
-	'friendlytime:date_format' => 'j F Y @ g:ia',
+	'friendlytime:hours' => "il y a %s heures",
+	'friendlytime:hours:singular' => "il y a une heure",
+	'friendlytime:days' => "il y a %s jours",
+	'friendlytime:days:singular' => "hier",
+	'friendlytime:date_format' => 'j F Y @ g:ia', // TODO
 	
-	'friendlytime:future:minutes' => "in %s minutes",
-	'friendlytime:future:minutes:singular' => "in a minute",
-	'friendlytime:future:hours' => "in %s hours",
-	'friendlytime:future:hours:singular' => "in an hour",
-	'friendlytime:future:days' => "in %s days",
-	'friendlytime:future:days:singular' => "tomorrow",
+	'friendlytime:future:minutes' => "dans %s minutes",
+	'friendlytime:future:minutes:singular' => "dans une minute",
+	'friendlytime:future:hours' => "dans %s heures",
+	'friendlytime:future:hours:singular' => "dans une heure",
+	'friendlytime:future:days' => "dans %s jours",
+	'friendlytime:future:days:singular' => "demain",
 
-	'date:month:01' => 'January %s',
-	'date:month:02' => 'February %s',
-	'date:month:03' => 'March %s',
-	'date:month:04' => 'April %s',
-	'date:month:05' => 'May %s',
-	'date:month:06' => 'June %s',
-	'date:month:07' => 'July %s',
-	'date:month:08' => 'August %s',
-	'date:month:09' => 'September %s',
-	'date:month:10' => 'October %s',
-	'date:month:11' => 'November %s',
-	'date:month:12' => 'December %s',
+	'date:month:01' => "Janvier %s",
+	'date:month:02' => "Février %s",
+	'date:month:03' => "Mars %s",
+	'date:month:04' => "Avril %s",
+	'date:month:05' => "Mai %s",
+	'date:month:06' => "Juin %s",
+	'date:month:07' => "Juillet %s",
+	'date:month:08' => "Août %s",
+	'date:month:09' => "Septembre %s",
+	'date:month:10' => "Octobre %s",
+	'date:month:11' => "Novembre %s",
+	'date:month:12' => "Décembre %s",
 
-	'date:weekday:0' => 'Sunday',
-	'date:weekday:1' => 'Monday',
-	'date:weekday:2' => 'Tuesday',
-	'date:weekday:3' => 'Wednesday',
-	'date:weekday:4' => 'Thursday',
-	'date:weekday:5' => 'Friday',
-	'date:weekday:6' => 'Saturday',
+	'date:weekday:0' => 'Dimanche',
+	'date:weekday:1' => 'Lundi',
+	'date:weekday:2' => 'Mardi',
+	'date:weekday:3' => 'Mercredi',
+	'date:weekday:4' => 'Jeudi',
+	'date:weekday:5' => 'Vendredi',
+	'date:weekday:6' => 'Samedi',
 	
-	'interval:minute' => 'Every minute',
-	'interval:fiveminute' => 'Every five minutes',
-	'interval:fifteenmin' => 'Every fifteen minutes',
-	'interval:halfhour' => 'Every half hour',
-	'interval:hourly' => 'Hourly',
-	'interval:daily' => 'Daily',
-	'interval:monthly' => 'Monthly',
-	'interval:yearly' => 'Yearly',
-	'interval:reboot' => 'On reboot',
+	'interval:minute' => 'Chaque minute',
+	'interval:fiveminute' => 'Toutes les cinq minutes',
+	'interval:fifteenmin' => "Tout les quart d'heure",
+	'interval:halfhour' => 'Toutes les demi-heures',
+	'interval:hourly' => 'Chaque heure',
+	'interval:daily' => 'Chaque jour',
+	'interval:monthly' => 'Chaque mois',
+	'interval:yearly' => 'Tout les ans',
+	'interval:reboot' => 'Au redémarrage',
 
 /**
  * System settings
  */
 
-	'installation:sitename' => "The name of your site:",
-	'installation:sitedescription' => "Short description of your site (optional):",
-	'installation:wwwroot' => "The site URL:",
+	'installation:sitename' => "L'intitulé du site :",
+	'installation:sitedescription' => "Une description courte du site (facultative) :",
+	'installation:wwwroot' => "L'URL du site :",
 	'installation:path' => "The full path of the Elgg installation:",
 	'installation:dataroot' => "The full path of the data directory:",
 	'installation:dataroot:warning' => "You must create this directory manually. It should be in a different directory to your Elgg installation.",
