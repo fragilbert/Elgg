@@ -31,15 +31,15 @@ $french = array(
 	'groups:briefdescription' => 'Brief description',
 	'groups:interests' => 'Tags',
 	'groups:website' => 'Website',
-	'groups:members' => 'Group members',
+	'groups:members' => 'Membres du groupe',
 	'groups:my_status' => 'My status',
 	'groups:my_status:group_owner' => 'You own this group',
 	'groups:my_status:group_member' => 'You are in this group',
 	'groups:subscribed' => 'Group notifications on',
 	'groups:unsubscribed' => 'Group notifications off',
 
-	'groups:members:title' => 'Members of %s',
-	'groups:members:more' => "View all members",
+	'groups:members:title' => 'Membres de %s',
+	'groups:members:more' => "Afficher les membres",
 	'groups:membership' => "Group membership permissions",
 	'groups:access' => "Access permissions",
 	'groups:owner' => "Owner",
@@ -68,7 +68,7 @@ $french = array(
 	'groups:nofriends' => "You have no friends left who have not been invited to this group.",
 	'groups:nofriendsatall' => 'You have no friends to invite!',
 	'groups:viagroups' => "via groups",
-	'groups:group' => "Group",
+	'groups:group' => "Groupe",
 	'groups:search:tags' => "tag",
 	'groups:search:title' => "Search for groups tagged with '%s'",
 	'groups:search:none' => "No matching groups were found",
@@ -110,10 +110,10 @@ View and reply to the discussion:
 
 	'groupforumtopic:new' => "Add discussion post",
 
-	'groups:count' => "groups created",
+	'groups:count' => "groupes créés",
 	'groups:open' => "open group",
 	'groups:closed' => "closed group",
-	'groups:member' => "members",
+	'groups:member' => "membres",
 	'groups:searchtag' => "Search for groups by tag",
 
 	'groups:more' => 'More groups',
@@ -248,15 +248,15 @@ or click below to view the group's join requests:
 		Forum river items
 	*/
 
-	'river:create:group:default' => '%s created the group %s',
-	'river:join:group:default' => '%s joined the group %s',
-	'river:create:object:groupforumtopic' => '%s added a new discussion topic %s',
-	'river:reply:object:groupforumtopic' => '%s replied on the discussion topic %s',
+	'river:create:group:default' => '%s a créé le groupe %s',
+	'river:join:group:default' => '%s a rejoint le groupe %s',
+	'river:create:object:groupforumtopic' => '%s a ajouté le nouveau sujet %s',
+	'river:reply:object:groupforumtopic' => '%s a répondu sur le sujet %s',
 	
 	'groups:nowidgets' => 'No widgets have been defined for this group.',
 
 
-	'groups:widgets:members:title' => 'Group members',
+	'groups:widgets:members:title' => 'Membres du groupe',
 	'groups:widgets:members:description' => 'List the members of a group.',
 	'groups:widgets:members:label:displaynum' => 'List the members of a group.',
 	'groups:widgets:members:label:pleaseedit' => 'Please configure this widget.',

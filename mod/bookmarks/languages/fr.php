@@ -49,14 +49,14 @@ A voir et à commenter sur la page de la ressource:
 	'bookmarks:river:annotate' => 'a comment on this bookmark',
 	'bookmarks:river:item' => 'an item',
 
-	'item:object:bookmarks' => 'Bookmarks',
+	'item:object:bookmarks' => 'Favoris',
 
-	'bookmarks:group' => 'Group bookmarks',
+	'bookmarks:group' => 'Favoris du groupe',
 	'bookmarks:enablebookmarks' => 'Enable group bookmarks',
 	'bookmarks:nogroup' => 'This group does not have any bookmarks yet',
 	'bookmarks:more' => 'More bookmarks',
 
-	'bookmarks:no_title' => 'No title',
+	'bookmarks:no_title' => 'Sans titre',
 
 	/**
 	 * Widget and bookmarklet

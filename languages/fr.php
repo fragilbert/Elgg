@@ -438,13 +438,13 @@ $french = array(
  * River
  */
 	'river' => "River",
-	'river:friend:user:default' => "%s is now a friend with %s",
-	'river:update:user:avatar' => '%s has a new avatar',
+	'river:friend:user:default' => "%s est maintenant en contact avec %s",
+	'river:update:user:avatar' => '%s a une nouvelle photo',
 	'river:update:user:profile' => '%s has updated their profile',
 	'river:noaccess' => 'You do not have permission to view this item.',
-	'river:posted:generic' => '%s posted',
-	'riveritem:single:user' => 'a user',
-	'riveritem:plural:user' => 'some users',
+	'river:posted:generic' => '%s a écrit',
+	'riveritem:single:user' => 'un membre',
+	'riveritem:plural:user' => 'des membres',
 	'river:ingroup' => 'in the group %s',
 	'river:none' => 'No activity',
 	'river:update' => 'Update for %s',
@@ -506,7 +506,7 @@ $french = array(
 	'tools' => "Tools",
 	'settings:edit' => 'Edit settings',
 
-	'register' => "Register",
+	'register' => "S'inscrire",
 	'registerok' => "You have successfully registered for %s.",
 	'registerbad' => "Your registration was unsuccessful because of an unknown error.",
 	'registerdisabled' => "Registration has been disabled by the system administrator",
@@ -559,7 +559,7 @@ $french = array(
 
 	'user:persistent' => 'Remember me',
 
-	'walled_garden:welcome' => 'Welcome to',
+	'walled_garden:welcome' => 'Bienvenue',
 
 /**
  * Administration
@@ -1027,10 +1027,10 @@ $french = array(
  */
 
 	'useradd:subject' => 'Votre compte de membre a été créé',
-	'useradd:body' => '
+	'useradd:body' => "
 %s,
 
-Un compte de membre a été créé dans le site du réseau social "%s".
+Un compte de membre a été créé dans le site du réseau social '%s'.
 Pour vous connecter, allez à l'adresse :
 
 %s
@@ -1040,7 +1040,7 @@ Vos coordonnées de connection sont :
 Pseudo: %s
 Mot de passe: %s
 
-Une fois connecté, nous vous recommandant de changer immédiatement votre mot de passe.',
+Une fois connecté, nous vous recommandant de changer immédiatement votre mot de passe.",
 
 /**
  * System messages
@@ -1280,7 +1280,7 @@ You cannot reply to this email.",
  * Entities
  */
 	
-	'byline' => 'By %s',
+	'byline' => 'Par %s',
 	'entity:default:strapline' => 'Created %s by %s',
 	'entity:default:missingsupport:popup' => 'This entity cannot be displayed correctly. This may be because it requires support provided by a plugin that is no longer installed.',
 
